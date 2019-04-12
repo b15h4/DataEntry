@@ -1,3 +1,3 @@
-# DataEntry
+# Scraping Projects with scrapy
 
-Some projects of data entrys in spreadsheets.
+Some scrapy projects
