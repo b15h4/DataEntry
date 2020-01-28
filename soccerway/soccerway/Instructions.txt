@@ -1,0 +1,28 @@
+Install Python3 -- https://www.python.org/downloads/
+
+Install Scrapy -- pip install scrapy
+
+Troubleshooting Scrapy :
+1 . If C++ error appears when installing scrapy , go install Tools for Visual Studio
+2 . Link -- https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2017
+3 . Run again
+
+Install xlswriter -- pip install xlsxwriter
+
+
+
+How To Run Script :
+
+1 . Run cmd
+2 . Go to folder soccerway where the items, settings, pipelines appear -- cd /soccerway/soccerway or 2 times cd /soccerway -- Tested in windows
+3 . scrapy crawl soccerwayspy
+4 . Output will appear in same follder your in
+
+
+How to add more links :
+
+1 . Go to soccerway folder than open spiders folder , then you see soccerwayspider.py file , open the file and under the start_urls variable 
+you can add how many urls u want ... Be careful with the comma , u need to add comma after every string you add .
+2 . Save the file
+3 . Delete previous output
+4 . Run Script again

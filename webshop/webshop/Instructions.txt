@@ -1,0 +1,49 @@
+1. Install Python3 - https://www.python.org/downloads/
+2. Install selenium webdriver - pip install selenium
+3. Install Chrome Webdriver - http://chromedriver.chromium.org/downloads
+4. Install scrapy - pip install scrapy
+
+Troubleshooting Scrapy :
+1 . If C++ error appears when installing scrapy , go install Tools for Visual Studio
+2 . Link -- https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2017
+3 . Run again
+
+-----------------------------------------------------------------------------------------------
+Install Chrome webdriver tutorial : https://www.youtube.com/watch?v=dz59GsdvUF8
+
+-----------------------------------------------------------------------------------------------
+
+ADD MORE PRODUCTS
+
+1 . go to the webshopspider.py in spiders folder , in the url variable you have the link of products, change that link with link of products you wanna scrape
+
+example : 
+
+url = "https://webshopb2b.bloomingville.com/pl/Essentials_161978.aspx?page={}".format(self.pagenumber)
+
+u change with another category like Furniture link :
+
+"https://webshopb2b.bloomingville.com/pl/Furniture_131966.aspx?page={}".format(self.pagenumber)
+
+2. After step 1,  change check number of nexpages
+
+example:
+
+if category has 5 nextpages
+
+u make this change --- while self.pagenumber <= 5:
+------------------------------
+if category has 10 nextpages
+u make this change --- while self.pagenumber <= 10:
+
+
+
+==============================================================================================
+AFTER YOU FINNISH EDITING THE CODE 
+
+1 . Open cmd go to the folder with command cd --- cd /webshop/webshop or 2 times cd /webshop
+2 . Write scrapy crawl webspy -o output.csv
+3 . Output will saved in webshop folder
+
+-----------------------------------------------------------------------------------------------
+
