@@ -1,0 +1,23 @@
+1. Install Python3
+2. Install Scrapy
+3. Install csv - pip install csv
+4. install json - pip install json
+
+===========================================================
+RUN SCRIPT
+
+1. open cmd
+2. go to the folder with cd command ... cd /apishop
+3. scrapy crawl apispy -o output.csv
+4. Output will save in same folder
+
+===========================================================
+ADD MORE PRODUCTS
+
+1. Open apishop folder
+2. Open list1.csv
+3. Add how many api-s you like
+4. Save the file
+5. RUN SCRIPT AGAIN
+
+===========================================================
